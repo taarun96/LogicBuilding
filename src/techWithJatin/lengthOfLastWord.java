@@ -1,9 +1,23 @@
 package techWithJatin;
 
 public class lengthOfLastWord {
-    public static void main(String[] args) {
-        String str="taarun purusothaman is a good boy";
-        String  str1[]=str.split(" ");
-        System.out.println(str1[str1.length-1].length());
-    }
-}
+    	public static void main(String[] args) {
+    	    String s = "    Hello world    moon    ";
+
+    	    System.out.println(s);
+
+    	    int count = 0;
+    	    char inputArray[] = s.toCharArray();
+
+    	    for (int i = inputArray.length - 1; i >= 0; i--) {
+    	        if (inputArray[i] != ' ') {
+    	            count = count + 1;
+    	        } else {
+    	            if (count > 0) {
+    	                System.out.println(count);
+    	                break;
+    	            }
+    	        }
+    	    }
+    	}
+ }
