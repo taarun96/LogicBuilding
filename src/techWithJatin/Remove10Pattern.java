@@ -1,6 +1,6 @@
 package techWithJatin;
 
-public class RodCuttingProblem {
+public class Remove10Pattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
