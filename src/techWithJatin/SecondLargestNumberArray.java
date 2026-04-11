@@ -11,9 +11,12 @@ public class SecondLargestNumberArray {
             if(arr[i]>largest){
                 secondLargest=largest;
                 largest=arr[i];
+                System.out.println("if_largest:"+largest);
+                System.out.println("if_secondLargest:"+secondLargest);
             }
             else if(arr[i]>secondLargest && arr[i]!=largest){
                 secondLargest=arr[i];
+                System.out.println("elseif_secondLargest:"+secondLargest);
             }
         }
         System.out.println("Second largest number in the array is: "+secondLargest);
