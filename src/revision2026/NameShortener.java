@@ -12,6 +12,7 @@ public class NameShortener {
             for(int i=0;i<nameParts.length-1;i++){
                 sb.append(nameParts[i].charAt(0)).append(".");
             }
+            System.out.println(sb);
             sb.append(nameParts[nameParts.length-1]);
             System.out.print(sb.toString());
         }

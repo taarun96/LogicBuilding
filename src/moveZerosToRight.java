@@ -11,6 +11,10 @@ public class moveZerosToRight {
                     count++;
                 }
         }
+        // Sort only non-zero part
+        Arrays.sort(finalArray, 0, count);
+
         System.out.println(Arrays.toString(finalArray));
+        
     }
 }
