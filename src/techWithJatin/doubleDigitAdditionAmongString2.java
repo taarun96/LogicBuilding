@@ -3,7 +3,7 @@ package techWithJatin;
 public class doubleDigitAdditionAmongString2 {
     public static void main(String[] args) {
 
-        String input = "12abc34xyz56lmn10";
+        String input = "12abc34xyz56lmn106";
         StringBuilder sb = new StringBuilder();
         int sum = 0;
 
